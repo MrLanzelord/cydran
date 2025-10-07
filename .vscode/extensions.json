@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "usernamehw.errorlens",
+        "junstyle.php-cs-fixer",
+        "pwarchol.vscode-php-file-link",
+        "bmewburn.vscode-intelephense-client"
+    ]
+}

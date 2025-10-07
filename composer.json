@@ -1,0 +1,50 @@
+{
+    "name": "lanze/cydran",
+    "description": "Cydran is a modern and clean WordPress theme. It is fully responsive, mobile-friendly, and has a minimalist design. It is suitable for blogging, portfolios, and other types of content.",
+    "version": "0.0.1-alpha",
+    "type": "wordpress-theme",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Cydran\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "../../wp-content/plugins/",
+            "../../wp-content/mu-plugins/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Juan Peña",
+            "email": "jpena3610@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.4",
+        "twig/twig": "^3.21",
+        "timber/timber": "^2.3",
+        "symfony/http-foundation": "^7.3",
+        "symfony/dependency-injection": "^7.3",
+        "symfony/event-dispatcher": "^7.3",
+        "symfony/error-handler": "^7.3",
+        "symfony/routing": "^7.3",
+        "symfony/filesystem": "^7.3",
+        "symfony/dotenv": "^7.3",
+        "symfony/console": "^7.3",
+        "symfony/serializer": "^7.3",
+        "symfony/config": "^7.3",
+        "symfony/finder": "^7.3",
+        "symfony/cache": "^7.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.3",
+        "friendsofphp/php-cs-fixer": "^3.88"
+    },
+    "scripts": {
+        "prod": "composer install --no-dev -a",
+        "build": "composer install --no-dev -a && npm install && npm run build",
+        "dev": "composer install && composer dump-autoload",
+        "autoload": "composer dump-autoload -a"
+    }
+}
