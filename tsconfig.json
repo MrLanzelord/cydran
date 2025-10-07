@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "checkJs": false,
+        "jsx": "react-jsx",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "baseUrl": "./public/assets",
+        "paths": {
+            "@components/*": [
+                "../src/Components/*"
+            ],
+            "@shared/*": [
+                "../src/UI/Shared/*"
+            ]
+        }
+    },
+    "include": [
+        "public/assets/**/*",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "public/dist"
+    ]
+}
