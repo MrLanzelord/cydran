@@ -1,0 +1,50 @@
+{
+  "Pages/Contacto/UI/contacto.css": {
+    "file": "theme/Pages/Contacto/UI/contacto.css.l0sNRNKZ.css",
+    "name": "theme/Pages/Contacto/UI/contacto.css",
+    "src": "Pages/Contacto/UI/contacto.css",
+    "isEntry": true
+  },
+  "Pages/Contacto/UI/contacto.js": {
+    "file": "theme/Pages/Contacto/UI/contacto.js.l0sNRNKZ.js",
+    "name": "theme/Pages/Contacto/UI/contacto.js",
+    "src": "Pages/Contacto/UI/contacto.js",
+    "isEntry": true
+  },
+  "Pages/Inicio/UI/inicio.css": {
+    "file": "theme/Pages/Inicio/UI/inicio.css.l0sNRNKZ.css",
+    "name": "theme/Pages/Inicio/UI/inicio.css",
+    "src": "Pages/Inicio/UI/inicio.css",
+    "isEntry": true
+  },
+  "Pages/Inicio/UI/inicio.js": {
+    "file": "theme/Pages/Inicio/UI/inicio.js.l0sNRNKZ.js",
+    "name": "theme/Pages/Inicio/UI/inicio.js",
+    "src": "Pages/Inicio/UI/inicio.js",
+    "isEntry": true
+  },
+  "UI/Layouts/base.css": {
+    "file": "theme/UI/Layouts/base.css.l0sNRNKZ.css",
+    "name": "theme/UI/Layouts/base.css",
+    "src": "UI/Layouts/base.css",
+    "isEntry": true
+  },
+  "UI/Shared/mixins.css": {
+    "file": "theme/UI/Shared/mixins.css.l0sNRNKZ.css",
+    "name": "theme/UI/Shared/mixins.css",
+    "src": "UI/Shared/mixins.css",
+    "isEntry": true
+  },
+  "UI/Shared/typography.css": {
+    "file": "theme/UI/Shared/typography.css.l0sNRNKZ.css",
+    "name": "theme/UI/Shared/typography.css",
+    "src": "UI/Shared/typography.css",
+    "isEntry": true
+  },
+  "UI/Shared/variables.css": {
+    "file": "theme/UI/Shared/variables.css.l0sNRNKZ.css",
+    "name": "theme/UI/Shared/variables.css",
+    "src": "UI/Shared/variables.css",
+    "isEntry": true
+  }
+}
