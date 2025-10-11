@@ -3,3 +3,4 @@
 .composer.lock
 .env
 package-lock.json
+**/public/dist/**

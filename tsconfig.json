@@ -13,19 +13,26 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
-        "baseUrl": "./public/assets",
+        "baseUrl": ".",
         "paths": {
             "@components/*": [
-                "../src/Components/*"
+                "src/Components/*"
             ],
             "@shared/*": [
-                "../src/UI/Shared/*"
+                "src/UI/Shared/*"
+            ],
+            "@cydran/*": [
+                "Framework/*"
+            ],
+            "@cydran/vite/config/*": [
+                "Framework/ViteConfig/*"
             ]
         }
     },
     "include": [
         "public/assets/**/*",
-        "src/**/*"
+        "src/**/*",
+        "Framework/**/*"
     ],
     "exclude": [
         "node_modules",

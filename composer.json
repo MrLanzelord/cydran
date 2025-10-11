@@ -6,7 +6,8 @@
     "license": "GPL-3.0",
     "autoload": {
         "psr-4": {
-            "Cydran\\": "src/"
+            "Cydran\\": "Framework/",
+            "App\\": "src/"
         },
         "exclude-from-classmap": [
             "../../wp-content/plugins/",
