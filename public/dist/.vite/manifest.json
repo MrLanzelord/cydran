@@ -1,31 +1,32 @@
 {
-  "Pages/Contacto/UI/contacto.css": {
-    "file": "theme/Pages/Contacto/UI/contacto.css.l0sNRNKZ.css",
-    "name": "theme/Pages/Contacto/UI/contacto.css",
-    "src": "Pages/Contacto/UI/contacto.css",
+  "Page/Contacto/UI/contacto.css": {
+    "file": "theme/Page/Contacto/UI/contacto.css.l0sNRNKZ.css",
+    "name": "theme/Page/Contacto/UI/contacto.css",
+    "src": "Page/Contacto/UI/contacto.css",
     "isEntry": true
   },
-  "Pages/Contacto/UI/contacto.js": {
-    "file": "theme/Pages/Contacto/UI/contacto.js.l0sNRNKZ.js",
-    "name": "theme/Pages/Contacto/UI/contacto.js",
-    "src": "Pages/Contacto/UI/contacto.js",
+  "Page/Contacto/UI/contacto.ts": {
+    "file": "theme/Page/Contacto/UI/contacto.ts.l0sNRNKZ.js",
+    "name": "theme/Page/Contacto/UI/contacto.ts",
+    "src": "Page/Contacto/UI/contacto.ts",
     "isEntry": true
   },
-  "Pages/Inicio/UI/inicio.css": {
-    "file": "theme/Pages/Inicio/UI/inicio.css.l0sNRNKZ.css",
-    "name": "theme/Pages/Inicio/UI/inicio.css",
-    "src": "Pages/Inicio/UI/inicio.css",
+  "Page/Inicio/UI/inicio.css": {
+    "file": "theme/Page/Inicio/UI/inicio.Dfxwn-PY.css",
+    "src": "Page/Inicio/UI/inicio.css",
     "isEntry": true
   },
-  "Pages/Inicio/UI/inicio.js": {
-    "file": "theme/Pages/Inicio/UI/inicio.js.l0sNRNKZ.js",
-    "name": "theme/Pages/Inicio/UI/inicio.js",
-    "src": "Pages/Inicio/UI/inicio.js",
-    "isEntry": true
+  "Page/Inicio/UI/inicio.ts": {
+    "file": "theme/Page/Inicio/UI/inicio.ts.BP73UEqx.js",
+    "name": "theme/Page/Inicio/UI/inicio.ts",
+    "src": "Page/Inicio/UI/inicio.ts",
+    "isEntry": true,
+    "imports": [
+      "_vendor.NnTBWsse.js"
+    ]
   },
   "UI/Layouts/base.css": {
-    "file": "theme/UI/Layouts/base.css.l0sNRNKZ.css",
-    "name": "theme/UI/Layouts/base.css",
+    "file": "theme/UI/Layouts/base.Bs1SkUgj.css",
     "src": "UI/Layouts/base.css",
     "isEntry": true
   },
@@ -35,6 +36,17 @@
     "src": "UI/Shared/mixins.css",
     "isEntry": true
   },
+  "UI/Shared/pico.css": {
+    "file": "theme/UI/Shared/pico.oxDhAJw-.css",
+    "src": "UI/Shared/pico.css",
+    "isEntry": true
+  },
+  "UI/Shared/test.js": {
+    "file": "theme/UI/Shared/test.js.BK-XoIC9.js",
+    "name": "theme/UI/Shared/test.js",
+    "src": "UI/Shared/test.js",
+    "isEntry": true
+  },
   "UI/Shared/typography.css": {
     "file": "theme/UI/Shared/typography.css.l0sNRNKZ.css",
     "name": "theme/UI/Shared/typography.css",
@@ -42,9 +54,25 @@
     "isEntry": true
   },
   "UI/Shared/variables.css": {
-    "file": "theme/UI/Shared/variables.css.l0sNRNKZ.css",
-    "name": "theme/UI/Shared/variables.css",
+    "file": "theme/UI/Shared/variables.DSQcdBMt.css",
     "src": "UI/Shared/variables.css",
     "isEntry": true
+  },
+  "UI/Shared/wait-tools.ts": {
+    "file": "theme/UI/Shared/wait-tools.ts.l0sNRNKZ.js",
+    "name": "theme/UI/Shared/wait-tools.ts",
+    "src": "UI/Shared/wait-tools.ts",
+    "isEntry": true
+  },
+  "_vendor.!~{00c}~.js": {
+    "file": "assets/vendor.B-cQhQ2X.css",
+    "src": "_vendor.!~{00c}~.js"
+  },
+  "_vendor.NnTBWsse.js": {
+    "file": "chunks/vendor.NnTBWsse.js",
+    "name": "vendor",
+    "css": [
+      "assets/vendor.B-cQhQ2X.css"
+    ]
   }
 }
