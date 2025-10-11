@@ -1,0 +1,18 @@
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - var(--wp-admin--admin-bar--height, 0px));
+    font-family: var(--font-family);
+
+    main {
+        flex-grow: 1;
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 1rem;
+        text-align: center;
+    }
+}
