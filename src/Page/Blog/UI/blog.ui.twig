@@ -1,0 +1,15 @@
+{# @var \Cydran\Page\Blog\BlogPageContext this #}
+
+{% extends "UI/Layouts/base.ui.twig" %}
+{% block content %}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+	<main>
+		<h1>{{ this.page.title }}</h1>
+		{% for post in this.posts %}
+			<article>
+				<h2>{{ post.title }}</h2>
+				<p>{{ post.content }}</p>
+			</article>
+		{% endfor %}
+	</main>
+{% endblock %}

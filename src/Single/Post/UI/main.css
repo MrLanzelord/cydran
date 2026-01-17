@@ -1,0 +1,26 @@
+main {
+    max-width: 768px;
+    padding: 1rem;
+    margin: auto;
+
+    p {
+        hyphenate-limit-chars: 9;
+        hyphens: auto;
+        text-align: justify;
+        text-wrap: pretty;
+    }
+
+    figure.wp-block-table {
+        table {
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            tr th,
+            tr td {
+                border: 1px solid #ccc;
+                padding: 0.5rem;
+            }
+        }
+    }
+}
